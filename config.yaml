@@ -1,0 +1,18 @@
+cookie:
+  expiry_days: 9999
+  key: $C^2gVV*P8XHz*T&X@#e*&S%jh84$
+  name: inventory_session_cookie
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      failed_login_attempts: 0
+      logged_in: true
+      name: John Smith
+      password: $2b$12$1YMcP6lCEOEJFJs2N3vvV.5l93O2jrcEO1/yCJHZuk/GxReKQdH/a
+    laboelectronica:
+      email: itbapanol@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Labo Electronica
+      password: $2b$12$oGRIxVL2MVGnnJaVTpGxwOm1zqa.CYlpi3cEgxUEjohtU10tJLwxm
