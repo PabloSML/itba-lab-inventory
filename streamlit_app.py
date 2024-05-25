@@ -140,7 +140,7 @@ def main_app(auth:stauth.Authenticate):
 
 if __name__ == '__main__':
     # Loading config file
-    with open('config.yaml', 'r', encoding='utf-8') as file:
+    with open('../config.yaml', 'r', encoding='utf-8') as file:
         config = yaml.load(file, Loader=SafeLoader)
 
     # Creating the authenticator object
@@ -157,5 +157,5 @@ if __name__ == '__main__':
     # register_user(auth=authenticator)
 
     # Saving config file
-    with open('config.yaml', 'w', encoding='utf-8') as file:
+    with open('../config.yaml', 'w', encoding='utf-8') as file:
         yaml.dump(config, file, default_flow_style=False)
